@@ -1,0 +1,194 @@
+body, html {       
+	margin:0px;
+	padding:0px;
+	height: 100%;
+	font-family: Verdana;
+	background-color: #fceaea;
+}
+
+#container{
+	width: 900px;
+	min-height: 1000px;
+	border: 4px solid #000;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 300px;
+}
+
+#container #title_of_game{
+	width: 100%;
+	height: 36px;
+	border-bottom: 2px solid #000;
+	font-family: Mistral;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+	background-color: #ffff00;
+}
+
+#container #title_of_game span{
+	display: block;
+	/* margin-top: 4px; */
+}
+
+#container #header img{
+	border-bottom: 2px solid #000;
+}
+
+#container #warning{
+	height: 24px;
+	border-bottom: 2px solid #000;
+	font-size: 17px;
+	text-align: center;
+	font-weight: 900;
+	background-color: #ffff00;
+	margin-top: -3px;
+}
+
+#container #points{
+	height: 320px;
+	border-bottom: 2px solid #000;
+}
+
+#container #table_points{
+	width: 80%;
+	height: 270px;
+	margin: 0 auto;
+	margin-top: 40px;
+	font-size: 180px;
+	font-family: Mistral;
+	text-align: center;
+}
+
+#container #table_points #first_point, #container #table_points #second_point, #container #table_points #third_point{
+	width: 200px;
+	border: 2px solid #000;
+}
+
+#container #control_panel{
+	background-color: #00f;
+	
+}
+
+#container #table_control_panel{
+	width: 82%;
+	height: 360px;
+	margin: 0 auto;
+}
+
+#container #table_control_panel #cash{
+	width: 330px;
+	border: 2px dashed #000;
+	height: 70px;
+	background-color: #fff;
+	text-align: right;
+	padding-right: 20px;
+	font-size: 54px;
+}
+
+#container #table_control_panel #button_go{
+	width: 310px;
+	border: 2px dashed #000;
+	height: 70px;
+	float: right;
+	background-color: #f9fa46;
+	text-align: center;
+	font-family: Mistral;
+	font-size: 56px;
+	cursor: pointer;
+}
+
+#container #table_control_panel #message_to_user{
+	width: 99.7%;
+	height: 72px;
+	background-color: #fff;
+	border: 2px solid #000;
+	text-align: center;
+	font-size: 50px;
+}
+
+#container #table_control_panel #embed_banknot{
+	float: right;
+	color: #fff;
+	font-family: Verdana;
+	font-size: 20px;
+	word-spacing: 10px;
+	letter-spacing: 10px;
+	margin-top: -6px;
+}
+
+#container #table_control_panel #select_banknote{
+	width: 100px;
+	height: 12px;
+	border: 2px dotted #0f0;
+	background-color: #000;
+	margin-top: 14px;
+	cursor: pointer;
+	color: #000;
+}
+
+#container #table_control_panel #select_banknote option{
+	color: #fff;
+	cursor: pointer;
+}
+
+#container #table_control_panel #new_game{
+	width: 300px;
+	height: 56px;
+	background-color: #f9fa46;
+	font-size: 50px;	
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 20px;
+	font-family: Mistral;
+	cursor: pointer;
+}
+
+#container #table_control_panel #get_money{
+	width: 300px;
+	height: 56px;
+	background-color: #f9fa46;
+	font-size: 50px;	
+	text-align: center;
+	border: 2px solid #000;
+	float: right;
+	border-radius: 20px;
+	font-family: Mistral;
+	cursor: pointer;
+}
+
+#container #rules{
+	width: 100%;
+	height: 38px;
+	background-color: #ff4342;
+	border-top: 2px solid #000;
+	text-align: center;
+	font-size: 30px;
+	font-family: Mistral;
+	color: #fceaea;
+	cursor: pointer;
+	transition: height 1s, color 1s;
+}
+
+#container #rules:hover{
+	height: 330px;
+	color: #000;
+	transition: height 1s, color 0.1s;
+}
+
+#container #rules h3{
+	margin: 0;
+	color: #000;
+}
+
+#container #rules #description_of_rules{
+	display: none;
+}
+
+#container #table_control_panel .controls_out_game{
+	color: #aaaaaa;
+}
+
+#container #table_control_panel .controls_in_game{
+	color: #000000;
+}

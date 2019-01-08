@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Fortune</title>
+	<link href="styles/main.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="js_scripts/functions.js"></script>
+</head>
+<body>
+	
+	<div id="container">
+		<div id="title_of_game">
+			<span>F O R T U N E</span>
+		</div>
+		<div id="header">
+			<img src="images/header.jpg" alt="none" />
+		</div>
+		<div id="warning">
+			<span>Осторожно! Игровая зависимость!</span>
+		</div>
+		<div id="points">
+			<table id="table_points" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="first_point">
+						-
+					</td>
+					<td>
+					</td>
+					<td id="second_point">
+						-
+					</td>
+					<td>
+					</td>
+					<td id="third_point">
+						-
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="control_panel">
+			<table id="table_control_panel" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td>
+						<div id="cash">
+							---
+						</div>
+					</td>
+					<td>
+						<div id="button_go" class="controls_out_game" onselectstart="return false" onmousedown="return false">
+							GO!
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<div id="message_to_user">
+							---
+						</div>
+					</td>
+					
+				</tr>
+				
+				<tr>
+					<td>
+						<div id="new_game" class="controls_out_game">NEW</div>
+					</td>
+					<td>
+						<div id="get_money" class="controls_out_game">ОБНАЛИЧИТЬ</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<table id="embed_banknot" border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>
+									<span>Вставьте купюру >> </span>
+								</td>
+								<td>
+									<div>
+										<table id="embed_banknot" border="0" cellpadding="0" cellspacing="0">
+											<tr>
+												<td>
+														<select id="select_banknote" name="select_banknote">
+															<option disabled selected value="none" style="display: none;"></option>
+															<option value="1000">1000$</option>
+															<option value="500">500$</option>
+															<option value="200">200$</option>
+															<option value="100">100$</option>
+														</select>
+												</td>
+											</tr>		
+											
+										</table>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="rules">
+			<h3>П Р А В И Л А</h3>
+			<span>
+				Привет! Тебя приветствует однорукий бандит! Правила очень просты. Ты вставляешь купюрю наминалом 1000$, 500$, 200$ или 100$. 
+				Далее, всё, что от тебя требуется, нажимать кнопку GO. На дисплее ты увидишь три цифры. Если там выпало три одинаковых числа, то к твоему лицевому счёту добавляется 100$. Если выпали три тройки, то поздравляем, это Cherry Boom!!!, и к твоему лицевому счёту прибавится 500$. А если ты настоящий счастливчик и тебе выпало три семёрки, то поздравляем, это Jack Pot!!!, и к твоему лицевому счёту прибавится 1000$. Однако не забывай, что в случае, если тебе выпало три разных цифры, ты теряешь 5$. Удачи!
+			</span>
+		</div>
+	</div>
+	
+</body>
+</html>
+
+
